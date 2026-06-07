@@ -11,7 +11,7 @@ import {
 test.describe("Shopping working tools tests", () => {
   test.use({ product: products.CombinationPliers });
 
-  test("product details page displays the selected tool", async ({
+  test("buying a new product will save the product invoices", async ({
     page,
     product,
     productId,
